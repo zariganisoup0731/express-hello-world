@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "express": "^5.0.0",
-    "express-ws": "^5.0.2"
+    "express-ws": "^5.0.2",
+    "yarn": "^1.22.22"
   }
 }
