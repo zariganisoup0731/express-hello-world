@@ -54,7 +54,7 @@
           e.preventDefault()
           const input = document.querySelector('.input')
           const text = input.value
-          ws.send(myId + ':' + text)
+          ws.send(JSON.stringify({ id: myId, text }))
           input.value = ''
           input.focus()
         }
